@@ -12,7 +12,7 @@ provider "google" {
     project = "terraform-practice-421214"
     zone = "asia-south1-a"
     region = "asia-south1"
-    credentials = "terraform-practice-key.json"
+    #credentials = "terraform-practice-key.json"
   
 }
 
