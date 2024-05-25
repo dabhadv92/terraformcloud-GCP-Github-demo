@@ -34,7 +34,7 @@ resource "google_storage_bucket_object" "object-tfcloud-pipeline" {
     
 }
 
-
+/*
 resource "google_storage_bucket_iam_member" "storage-iam-member" {
   bucket = google_storage_bucket.storage-tfcloud-pipeline.name
   role = "roles/storage.admin"
@@ -42,6 +42,7 @@ resource "google_storage_bucket_iam_member" "storage-iam-member" {
 
   
 }
+*/
 
   
 
