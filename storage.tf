@@ -1,7 +1,7 @@
 
 resource "google_storage_bucket" "storage-tfcloud-pipeline" {
     name = var.bucket-name
-    location = "asia"
+    location = var.storage-location
     force_destroy = true
     storage_class = var.storage_class
     ##storage account conditional expression- if storage class is standard then create standard storage bucket, 
