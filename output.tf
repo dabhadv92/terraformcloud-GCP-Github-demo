@@ -1,5 +1,5 @@
 
-/*
+
 output "storage-bucket-name" {
   value = google_storage_bucket.storage-tfcloud-pipeline.name
 }
@@ -17,4 +17,3 @@ output "subnet-ip-range-tfcloud" {
   value = google_compute_subnetwork.demo-github-tfcloud-pipeline.ip_cidr_range
 }
 
-*/
