@@ -15,7 +15,7 @@ variable "storage-location" {
   default = "asia-south1"
 }
 
-*/
+
 
 variable "vpc-name" {
   type = string
@@ -32,4 +32,4 @@ variable "ip_cidr_range" {
   default = "192.168.110.0/24"
 }
 
-
+*/
