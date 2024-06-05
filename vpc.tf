@@ -1,4 +1,4 @@
-
+/*
 resource "google_compute_network" "vpc-github-tfcloud-pipeline" {
     name = var.vpc-name
     auto_create_subnetworks = false
@@ -13,3 +13,4 @@ resource "google_compute_subnetwork" "demo-github-tfcloud-pipeline" {
   
 }
 
+*/
