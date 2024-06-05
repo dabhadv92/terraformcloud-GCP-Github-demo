@@ -1,5 +1,5 @@
 
-
+/*
 resource "google_storage_bucket" "storage-tfcloud-pipeline" {
     name = var.bucket-name
     location = var.storage-location
@@ -14,7 +14,7 @@ resource "google_storage_bucket" "storage-tfcloud-pipeline" {
       retention_period = "432000"
     }
     
-    */
+    
 
     lifecycle_rule {
       condition {
@@ -45,7 +45,7 @@ resource "google_storage_bucket_iam_member" "storage-iam-member" {
   
 }
 
-
+*/
   
 
 

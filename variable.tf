@@ -1,4 +1,4 @@
-
+/*
 
 variable "bucket-name" {
     type = string
@@ -31,3 +31,4 @@ variable "ip_cidr_range" {
   default = "192.168.110.0/24"
 }
 
+*/
