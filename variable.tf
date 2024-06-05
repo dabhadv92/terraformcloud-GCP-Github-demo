@@ -1,5 +1,5 @@
 
-/*
+
 variable "bucket-name" {
     type = string
     default = "demo-storage-tfcloud"
@@ -31,4 +31,3 @@ variable "ip_cidr_range" {
   default = "192.168.110.0/24"
 }
 
-*/
