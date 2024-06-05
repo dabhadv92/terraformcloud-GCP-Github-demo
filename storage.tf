@@ -1,5 +1,6 @@
 
 /*
+
 resource "google_storage_bucket" "storage-tfcloud-pipeline" {
     name = var.bucket-name
     location = var.storage-location
